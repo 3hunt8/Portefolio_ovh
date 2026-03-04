@@ -1,0 +1,80 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 209 80% 42%;
+  --primary-foreground: 0 0% 98%;
+
+  --secondary: 0 0% 96.1%;
+  --secondary-foreground: 0 0% 9%;
+
+  --accent: 12 22% 65%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+
+  --background: 15 33% 15%;
+  --foreground: 0 0% 98%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 222.2 84% 4.9%;
+
+  --radius: 0.75rem;
+
+  /* Couleurs personnalisées */
+  --blue-dark: 212 59% 14%;
+  --blue-light: 193 82% 42%;
+  --beige: 19 25% 65%;
+  --grey-blue: 213 13% 39%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  /* Classes personnalisées */
+  .section-overlay {
+    @apply relative;
+  }
+
+  .section-overlay::after {
+    content: '';
+    @apply absolute inset-0 bg-blue-dark/75;
+  }
+
+  .hero-content {
+    @apply z-10 relative;
+  }
+
+  /* Animation scroll */
+  .scroll-down {
+    @apply absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce;
+  }
+}
