@@ -50,8 +50,20 @@ const projetsData = [
   }
 ];
 
+type ProjetType = {
+  id: string;
+  category: string;
+  title: string;
+  description: string;
+  details: string;
+  image: string;
+  technologies: string[]; // C'est un tableau de chaînes de caractères
+  pdf: string;
+  link: string;
+};
+
 // Sous-composant pour la carte individuelle (Gère l'animation)
-const ProjectCard = ({ projet }) => {
+const ProjectCard = ({ projet }: { projet: ProjetType }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
@@ -76,7 +88,7 @@ const ProjectCard = ({ projet }) => {
             <p className="text-gray-300 mb-4">{projet.description}</p>
             
             <div className="flex flex-wrap gap-2 mb-4">
-              {projet.technologies.map((tech) => (
+              {projet.technologies.map((tech: string) => (
                 <span key={`${projet.id}-${tech}`} className="bg-blue-light/30 text-white text-xs px-3 py-1 rounded-full">
                   {tech}
                 </span>

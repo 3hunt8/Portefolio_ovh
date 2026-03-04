@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Linkedin, ChevronDown, Mail, MapPin, Calendar, Car, hobbies } from 'lucide-react';
+import { Linkedin, ChevronDown, Mail, MapPin, Calendar, Car} from 'lucide-react';
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [selectedHobby, setSelectedHobby] = useState(null);
+  const [selectedHobby, setSelectedHobby] = useState<string | null>(null);
 
   // Liste des loisirs avec icônes et descriptions
   const hobbies = [
