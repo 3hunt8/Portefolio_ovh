@@ -81,6 +81,7 @@ export default function Hero() {
             <div className="relative mb-6 group">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full animate-pulse group-hover:animate-none opacity-75 blur-md"></div>
               <div className="relative">
+                <br />
                 <img
                   src="https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/ppalexis%20(2).jpeg"
                   alt="Alexis Neyroud"
@@ -90,10 +91,12 @@ export default function Hero() {
               </div>
             </div>
 
-            <h1 className="text-3xl font-bold text-white mb-2 tracking-tight">Alexis NEYROUD</h1>
+            <h1 className="text-3xl font-bold text-white mb-2 tracking-tight">Alexis NEYROUD</h1>            
+              "C'est pas ce qu'on sait qui fait la différence, mais ce qu'on fait"
             <div className="h-1 w-24 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full mb-4"></div>
             <p className="text-gray-200 text-sm font-medium tracking-widest mb-8 bg-gradient-to-r from-blue-300 to-purple-300 bg-clip-text text-transparent">
               ALTERNANT SYSTÈME D'INFORMATION
+
             </p>
 
             <div className="flex space-x-6 mb-8">
