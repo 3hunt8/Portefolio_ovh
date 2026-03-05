@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Linkedin, ChevronDown, Mail, MapPin, Calendar, Car} from 'lucide-react';
+import { Linkedin, ChevronDown, Mail, MapPin, Calendar, Car } from 'lucide-react';
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
@@ -82,7 +82,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full animate-pulse group-hover:animate-none opacity-75 blur-md"></div>
               <div className="relative">
                 <img
-                  src="/src/assets/image/ppalexis.JPG"
+                  src="https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/ppalexis.JPEG"
                   alt="Alexis Neyroud"
                   className="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
                 />

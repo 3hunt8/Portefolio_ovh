@@ -57,7 +57,7 @@ export function Parcours() {
     {
       id: "entreprise1",
       title: "Neo-Logic",
-      icon: "s\src\assets\image\neologic.png",
+      icon: "https://neo-logic.fr/wp-content/themes/twentytwenty-child/assets/images/logo-neo-logic.png",
       skills: ["Support Technique", "Maintenance informatique", "Installation réseaux"],
       periode: "Mars 2021 - Avril 2021",
       location: "Saint-Jean-de-Maurienne",

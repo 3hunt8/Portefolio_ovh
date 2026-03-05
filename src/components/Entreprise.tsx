@@ -28,25 +28,25 @@ export function Entreprise() {
       id: "secours-montagne",
       title: "Secours en Montagne",
       description: "Interventions rapides en milieu montagneux pour le secours et l'évacuation de personnes en détresse.",
-      icon: "/src/assets/image/yeti73.png",
+      icon: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/yeti73.png",
     },
     {
       id: "levage-aerien",
       title: "Levage Aérien",
       description: "Transport de charges lourdes et d'équipements dans des zones difficiles d'accès.",
-      icon: "/src/assets/image/logolevage.png",
+      icon: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/logolevage.png",
     },
     {
       id: "travail-specialise",
       title: "Travail Aérien Spécialisé",
       description: "Services aériens sur mesure pour des besoins industriels, énergétiques et environnementaux.",
-      icon: "/src/assets/image/logotas.png",
+      icon: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/logotas.png",
     },
     {
       id: "SHMUR",
       title: "SHMUR",
       description: "Le SHMUR (Service Héliporté de Maintenance Urgente et de Réparation) assure des interventions rapides en hélicoptère pour la maintenance et la réparation d’équipements techniques en zones difficiles d’accès.",
-      icon: "/src/assets/image/logoshumr.png",
+      icon: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/logoshumr.png",
     },
   ];
 
@@ -54,19 +54,19 @@ export function Entreprise() {
   const photos: PhotoItem[] = [
     {
       id: "photo-1",
-      src: "/src/assets/image/photosecours.jpg",
+      src: "https://t.plnspttrs.net/12492/1859296_32c783f87e_280.jpg",
       alt: "Hélicoptère SAF en mission",
       title: "Mission de secours"
     },
     {
       id: "photo-2",
-      src: "/src/assets/image/photosamu.jpg",
+      src: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/photosamu.jpg",
       alt: "SAMU",
       title: "SAMU"
     },
     {
       id: "photo-3",
-      src: "/src/assets/image/photolevage.png",
+      src: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/photolevage.png",
       alt: "Opération de levage",
       title: "Levage aérien"
     },
@@ -78,13 +78,13 @@ export function Entreprise() {
     },
     {
       id: "photo-5",
-      src: "/src/assets/image/photosim.png",
+      src: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/photosim.png",
       alt: "Formation équipe",
       title: "Formation"
     },
     {
       id: "photo-6",
-      src: "https://via.placeholder.com/400x300/1e3a8a/ffffff?text=Photo+6",
+      src: "https://images.ladepeche.fr/api/v1/images/view/645c8a3ef585a461661e768d/large/image.jpg?v=1",
       alt: "Maintenance hélicoptère",
       title: "Maintenance"
     }
