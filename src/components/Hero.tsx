@@ -82,7 +82,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full animate-pulse group-hover:animate-none opacity-75 blur-md"></div>
               <div className="relative">
                 <img
-                  src="https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/ppalexis.JPEG"
+                  src="https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/ppalexis%20(2).jpeg"
                   alt="Alexis Neyroud"
                   className="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
                 />
