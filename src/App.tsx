@@ -1,7 +1,7 @@
 import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
+import  Hero  from './components/Hero';
 import { Entreprise } from './components/Entreprise';
-import { Competences } from './components/Competences';
+import  Competences  from './components/Competences';
 import { Parcours } from './components/Parcours';
 import { Projets } from './components/Projets';
 import { Veille } from './components/Veille';
