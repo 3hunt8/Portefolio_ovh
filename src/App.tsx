@@ -20,6 +20,10 @@ function App() {
         <Hero />
         
         {/* On peut ajouter des IDs pour les liens de la Navbar */}
+        <section id="entreprise" className="py-10 md:py-20">
+        <Entreprise />
+        </section>
+
         <section id="parcours" className="py-10 md:py-20">
           <Parcours />
         </section>
