@@ -4,7 +4,7 @@ import App from "./App.tsx";
 
 const rootElement = document.getElementById("root");
 if (!rootElement) {
-  throw new Error("Failed to find root elements");
+  throw new Error("Failed to find root element");
 }
 
 createRoot(rootElement).render(<App />);
