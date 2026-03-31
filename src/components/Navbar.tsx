@@ -4,8 +4,11 @@ import { Button } from './ui/button';
 export function Navbar() {
   // État pour le fond de la navbar au scroll
   const [isScrolled, setIsScrolled] = useState(false);
-  // NOUVEAU : État pour ouvrir/fermer le menu sur téléphone
+  // État pour ouvrir/fermer le menu sur téléphone
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // Ton lien de CV centralisé
+  const cvLink = "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/cv/CV%20%20Alexis%20Neyroud.pdf";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -58,9 +61,15 @@ export function Navbar() {
           </a>
         </nav>
 
-        {/* Bouton CV */}
+        {/* Bouton CV Bureau */}
         <Button className="hidden md:flex bg-blue-500 hover:bg-blue-600 text-white rounded-full py-2 px-5 text-sm" variant="default" asChild>
-          <a href="/src/assets/cv/doc.docx" className="flex items-center" aria-label="Télécharger mon CV" download>
+          <a 
+            href={cvLink} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="flex items-center" 
+            aria-label="Consulter mon CV"
+          >
             TÉLÉCHARGER MON CV
             <svg className="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
@@ -75,7 +84,6 @@ export function Navbar() {
           aria-expanded={isMobileMenuOpen}
           aria-label="Toggle navigation menu"
         >
-          {/* L'erreur de l'xmlns avec le PDF a été corrigée ici */}
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             {isMobileMenuOpen ? (
               // Icône Croix (quand ouvert)
@@ -118,8 +126,9 @@ export function Navbar() {
               {/* Bouton CV version mobile */}
               <div className="pt-4 mt-2 border-t border-blue-800">
                 <a 
-                  href="/src/assets/cv/doc.docx" 
-                  download
+                  href={cvLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="flex justify-center items-center bg-blue-500 hover:bg-blue-600 text-white rounded-full py-3 px-5 text-sm font-bold w-full"
                 >
                   TÉLÉCHARGER MON CV

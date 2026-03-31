@@ -103,7 +103,7 @@ export default function Hero() {
                 </div>
               </a>
               <a 
-                href="mailto:contact@alexisneyroud.fr" 
+                href="mailto:alexis.neyroud38@gmail.com" 
                 aria-label="Email"
                 className="group"
               >

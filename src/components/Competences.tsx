@@ -76,7 +76,8 @@ export default function Competences() {
     },
   ];
 
-  const [openAccordion, setOpenAccordion] = useState<string | null>("dev-web");
+  // MODIFICATION ICI : On initialise l'état avec null pour que tout soit fermé
+  const [openAccordion, setOpenAccordion] = useState<string | null>(null);
 
   const toggleAccordion = (id: string) => {
     setOpenAccordion(prev => (prev === id ? null : id));

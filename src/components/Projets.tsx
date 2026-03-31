@@ -133,7 +133,7 @@ export function Projets() {
     <section id="projets" className="py-20 bg-slate-950">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">Portfolio</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Projets</h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </div>
 
