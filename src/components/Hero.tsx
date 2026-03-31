@@ -9,35 +9,25 @@ export default function Hero() {
   // Liste des loisirs avec icônes et descriptions
   const hobbies = [
     { 
-      id: 'chasse', 
-      name: 'Chasse',
-      icon: '🐗',
-      description: 'Passionné de chasse et des activités en pleine nature'
-    },
-    { 
       id: 'montagne', 
       name: 'Montagne',
       icon: '🏔️',
       description: 'Exploration et découverte des massifs montagneux'
     },
-    { 
-      id: 'randonnee', 
-      name: 'Randonnée',
-      icon: '🥾',
-      description: 'Parcours de sentiers et découverte de paysages à pied'
-    },
+
     { 
       id: 'rugby', 
       name: 'Rugby',
       icon: '🏉',
       description: 'Pratique et passion pour le rugby'
     },
-    { 
-      id: 'amis', 
-      name: 'Sorties',
-      icon: '🍻',
-      description: 'Moments conviviaux et sorties entre amis'
-    }
+        { 
+      id: 'chasse', 
+      name: 'Chasse',
+      icon: '🐗',
+      description: 'Passionné de chasse et des activités en pleine nature'
+    },
+
   ];
 
   useEffect(() => {

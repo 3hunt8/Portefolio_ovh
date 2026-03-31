@@ -24,12 +24,11 @@ type Skill = {
 type Competence = {
   id: string;
   title: string;
-  icon: string | React.ReactNode; // Permet d'accepter une URL (string) ou une icône (ReactNode)
+  icon: string | React.ReactNode; 
   skills: Skill[];
 };
 
 export default function Competences() {
-  // Vos données avec les icônes Lucide intégrées
   const competences: Competence[] = [
     {
       id: "sys-reseau",
@@ -77,14 +76,12 @@ export default function Competences() {
     },
   ];
 
-  // Gestion de l'accordéon (un seul ouvert à la fois)
   const [openAccordion, setOpenAccordion] = useState<string | null>("dev-web");
 
   const toggleAccordion = (id: string) => {
     setOpenAccordion(prev => (prev === id ? null : id));
   };
 
-  // Fonction pour les petits points sur 5
   const renderDots = (percentage: number) => {
     const levelSur5 = Math.round(percentage / 20);
     return (
@@ -161,7 +158,6 @@ export default function Competences() {
               className="flex items-center justify-between p-4 cursor-pointer bg-gray-800 hover:bg-gray-700"
               onClick={() => toggleAccordion(competence.id)}
             >
-              {/* Affichage intelligent de l'icône (URL ou Composant React) */}
               <div className="flex items-center">
                 {typeof competence.icon === 'string' ? (
                   <img 
@@ -247,14 +243,15 @@ export default function Competences() {
                 <div className="p-4 bg-gray-900 border-t border-gray-700">
                     <div className="rounded overflow-hidden"> 
                         <iframe
-                            src="/src/assets/tc/tableaux.pdf"
-                            className="w-full h-[800px] border border-gray-700 rounded"
+                            src="https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/tableau/tableau.pdf"
+                            className="w-full h-[800px] border border-gray-700 rounded bg-white"
                             title="Tableaux de compétences"
                         />
                     </div>
                 </div>
             )}
         </div>
+        {/* --- FIN SECTION PDF --- */}
 
       </div>
     </div>
