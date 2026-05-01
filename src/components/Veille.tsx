@@ -57,10 +57,12 @@ export function Veille() {
     try {
       const allFetched: any[] = [];
       for (const source of sources) {
-        const proxies = [
-          () => fetch(`https://corsproxy.io/?url=${encodeURIComponent(source.rss)}`).then(r => r.text()),
-          () => fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(source.rss)}`).then(r => r.text()),
-        ];
+const proxies = [
+  () => fetch(`https://corsproxy.io/?url=${encodeURIComponent(source.rss)}`).then(r => r.text()),
+  () => fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(source.rss)}`).then(r => r.text()),
+  () => fetch(`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(source.rss)}`).then(r => r.text()),
+  () => fetch(`https://thingproxy.freeboard.io/fetch/${encodeURIComponent(source.rss)}`).then(r => r.text()),
+];
         for (const tryProxy of proxies) {
           try {
             const text  = await tryProxy();

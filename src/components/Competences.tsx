@@ -46,7 +46,7 @@ export default function Competences() {
       title: "Sécurité",
       icon: <Shield className="text-blue-400" size={20} />,
       skills: [
-        { name: "Firewall", level: 35 },
+        { name: "Firewall", level: 50 },
         { name: "Pentest", level: 10 },
         { name: "Audit", level: 10 },
         { name: "Cryptographie", level: 10 }
