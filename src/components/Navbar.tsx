@@ -8,7 +8,7 @@ export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // Ton lien de CV centralisé
-  const cvLink = "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/cv/CV%20%20Alexis%20Neyroud.pdf";
+  const cvLink = "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/cv/CV_ESCT_Toulouse_Alexis_Neyroud_v2_2.pdf";
 
   useEffect(() => {
     const handleScroll = () => {

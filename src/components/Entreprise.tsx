@@ -72,9 +72,9 @@ export function Entreprise() {
     },
     {
       id: "photo-4",
-      src: "https://via.placeholder.com/400x300/1e3a8a/ffffff?text=Photo+4",
+      src: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/image/photo_espagne.JPEG",
       alt: "Base SAF",
-      title: "Nos installations"
+      title: "Projet Espagne"
     },
     {
       id: "photo-5",

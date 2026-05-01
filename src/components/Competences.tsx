@@ -244,7 +244,7 @@ export default function Competences() {
                 <div className="p-4 bg-gray-900 border-t border-gray-700">
                     <div className="rounded overflow-hidden"> 
                         <iframe
-                            src="https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/tableau/tableau.pdf"
+                            src="https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/tableau/8-1%20-%20BTS%20SIO%20-%202025%20-%20Annexe%208-1%20-%20Epreuve%20E5%20-%20Tableau%20de%20synth%C3%A8se.pdf"
                             className="w-full h-[800px] border border-gray-700 rounded bg-white"
                             title="Tableaux de compétences"
                         />

@@ -6,25 +6,25 @@ const projetsData = [
   {
     id: "projet-1",
     category: "scolaire",
-    title: "PRA & Sauvegarde",
-    description: "Mise en place d'un Plan de Reprise d'Activité.",
+    title: "PCA & PRA",
+    description: "Mise en place d'un Plan de Continuité d'Activité & de Reprise d'Activité.",
     details: "Mise en œuvre d'un serveur UrBackup sur Debian en DMZ. Configuration de pfSense pour le filtrage et routage vers un hôte Windows physique servant de cible de stockage SMB.",
     // REMPLACE CE LIEN PAR TON IMAGE CLOUDFLARE
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=2000&auto=format&fit=crop", 
+    image: "https://acitechnology.eu/wp-content/uploads/2024/01/un-plan-de-reprise-dactivite-cest-quoi-1-1536x864.jpg.webp", 
     technologies: ["UrBackup", "Windows Server", "pfSense", "Debian"],
-    pdf: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/procedure/procedure_backup.pdf",
+    pdf: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/procedure/Procedure_Projet1_FINAL.pdf",
     link: "#"
   },
   {
     id: "projet-2",
     category: "scolaire",
-    title: "Interface Web",
-    description: "Création d'une interface moderne pour une application de gestion.",
-    details: "Projet de fin de semestre axé sur l'UX/UI. Utilisation des hooks React avancés et gestion d'état globale.",
+    title: "GLPI",
+    description: "Déploiement d'une solution ITSM de gestion de parc et de ticketing.",
+    details: "Installation et configuration de GLPI sur serveur Linux. Mise en place de l'inventaire automatique via l'agent Fusion Inventory, création des catégories de tickets, gestion des utilisateurs et des groupes, et rédaction d'une procédure d'utilisation.",
     // REMPLACE CE LIEN PAR TON IMAGE CLOUDFLARE
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2000&auto=format&fit=crop",
-    technologies: ["React", "Tailwind CSS", "TypeScript"],
-    pdf: "/documents/maquette-web.pdf",
+    image: "https://www.glpi-project.org/wp-content/uploads/2025/06/image-13-1.webp",
+    technologies: ["GLPI", "FusionInventory", "Linux", "MySQL", "Apache"],
+    pdf: "https://pub-0059eb78551446a0ac8e717c896e0b02.r2.dev/procedure/Procedure_GLPI_v2.pdf",
     link: "#"
   },
   // --- PROJETS PROFESSIONNELS ---

@@ -82,7 +82,8 @@ export default function Hero() {
             </div>
 
             <h1 className="text-3xl font-bold text-white mb-2 tracking-tight">Alexis NEYROUD</h1>            
-              "C'est pas ce qu'on sait qui fait la différence, mais ce qu'on fait"
+              ""Ce n'est pas parce que les choses sont difficiles que nous n'osons pas ; c'est parce que nous n'osons pas qu'elles sont difficiles."
+— Sénèque"
             <div className="h-1 w-24 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full mb-4"></div>
             <p className="text-gray-200 text-sm font-medium tracking-widest mb-8 bg-gradient-to-r from-blue-300 to-purple-300 bg-clip-text text-transparent">
               ALTERNANT SYSTÈME D'INFORMATION
